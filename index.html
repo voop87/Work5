@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Work5</title>
+</head>
+<body>
+	<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52 52" id="icon-warning">
+    <image id="warning" width="52" height="52" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAC0klEQVRoge2aPUscYRDHf9kDG01yyH2CFDFgINdeMChobxEs80VSWeUjWJzN9ZLPICFgmxc40BRWKQQLNdFG0A27/AcmeqK394xml/zgELl15j8+Lzszz/OIdBS2XgGLQBeYA54BM8C0vJwBp8A+sAd8BT4B34A8oZaJ6AEbwKFEVfkcykZvUjFVRygD3gLvNRrGL+AzsAPsAj+AE+C3vn8MPAWeAy+A18Ab4ImzUYzaB+AjcDlZeHdjwU2RXNNoAKwArQr2WvrbgWyZ3cLHQmQgxTroO4dHwDrQTuijLZtHzk/frcFkzANDOSimwSYwm9qJY1Y+LuVzKA1JWNY6KAz/BJYCA7nKknzm0rA8qcFV4FwGt4FOcsm305HvXFpWqxpadsFsAVP3GMRVpqTBghp7pObdNNuquHulpuWCOhlnTU27DWA70ch812dSptz0G9519+u7DSDVmskTpjYdt1H0b3t4wW3NKXezlAEhbbal3/jyzVwGsJnQOQEBIY2WUWSjHlhzGUDql2ZEQLMuo1gb9cAXfbme2DFBASGtubT/Rc8lmilzMyMqoLZLaMvSw+beO/0s9vnjAMdRHEuzj6Gsiaw4WwlyHDVCSLMViWV913Vv36iMIDKglstqupl6AKjSvAhyGsmFtBcsZq6E3qlhMIZpL0doTr/sPqymiTDtZSwHmn8vAx1GriGkvbB/kKlvhhZWXTHtM/6/F/FCNaJHqG0+RiZ1dSZT6oCagHXFtJ9l6jWjjmZdMe2nmRrnqD1bV0z7fqZTANRrriumfS9Tcxw1zuuKaS9jaVRyyj2VD6naWKO4Vj6gw6ZcRxp1YyDtG153dAkexbUS3BPZJInixiYJwW2siDV0axurcY1GmtYKNiKa9Smn3FjNeoKOU1JR6TiFph14GY06kjQadWhsNOpY32jUxQujUVdjPP/05aX/18tG0IgLgDfZetgrmsAfluxGso/o5woAAAAASUVORK5CYII="></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14 14" id="icon-cancel">
+    <image id="cancel_1_" width="14" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAaUlEQVQokZ2S0QqAIAxFDz34c8b+zp+VwFBmRKWzDQbC7tl0XoAAJCBix67ayrRDATIgE1RUU5Rpk7IBy0MTR4U7PKsNBSb0BR+aK++/4A70Bi9os7qshuuqruW4vsNtALfl/pi8ahIQTn/jS1K71xBDAAAAAElFTkSuQmCC"></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="icon-cart">
+    <image id="shopping-cart" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABVklEQVQ4jc3Uy0pXURQG8J83FMFL4CBBRJtKg54gJ4UWIYKD5r2Agg8ghE8gOHRqDxEYDdRRgyZh5AXBgQqSoaIDLRas4Hg4f/H4n/jBYu9z9ubb6/q14ScmcYlfuNEknmMJv3GId80S/kcXvmGhGZLWwj5C/oNBPH0oYUvp+wte5v4KO9grrLtpsT+5L2HYMp5hpLCOpg2jA6cVj3xvb+D5UdpmxVmkaSgfKT4Ykb1oRHgXoq32074W7o1jrbU+39141IQtjQhfoa8mWdRiKvN6C9Ey1/j7AIvRfVNV5UWsorOGhzcpLBdlwnP040fNkG/FXkR4toJunNXgiUn5FGpVHr3A2xy9J/iMCRxH05buhYi8xkY6MJBSWIkg+JAn89iquDWH7eyUyHcU5X2j0YvyTydReByDX0b8i5meQQ96U5UqMYb1zGOEGipTRqTrY6r8AWbhH+CCVTyUL/jPAAAAAElFTkSuQmCC"></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23 20" id="icon-home">
+    <image id="web-page-home" width="23" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAUCAYAAABmvqYOAAABh0lEQVQ4jdXUPYxOQRTG8d/yFipR0EjQKraglCA+EoUgiq1WI6JAIaJQeacYlVKjWonQs4nCNqJGQyQqkQjRILHxUWwEGTl3c03ey1iVJ7m5c+bO+T8nM+fO1Hg81qjtuIV5nMf3kpZzHsweNYJ3YAFrcQ5rcKYzGNKqBvB+3IvxQdzHKVzF1L/Aj+AuPuNAjA/1DVJKgwa/gx/DbbzDPjyI+S+tBkPw07iBV9iNp9X3zuBOGMyllFa3wC/Efj7HznhPUjGYCYMTpZjaoIZfwuWotIBfD4A7LfUMZmuDDl727Aou4iF24e0fwD+Vcx40KPAymMPZOKS9WGwBTzCY7xuMAnw81n3CBrz8G3hoNn7KbzFeKpVviUrLAR3GnhWARYGlgz4Gb9MoerjoaPR13bOpt6avm7hWzS3mnNd1QcvdUtpsI9705jbHu4b/otaL6xm29eIPLUktF9eK9f/CJ+35yaod1w/s8VZcT6k003I8CH+B95iOp9NXPKnyHscBl/bt69FygB/+JWFHuvTLvQAAAABJRU5ErkJggg=="></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="icon-logout">
+    <image id="logout" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAyklEQVQ4jc3VMWpCQRSF4Y/4IGIIqdK5BktXYJnaxbiFFFmCRbDQVq0EEawkVtmGZQhoFRl41TPMG59TeGCqe+/PDOdwB7pY4YS/yPmUoAJjDLDHb2TkOwUYdMRXanOdHvBYc7OrgU00whSdXMBXDLHAc7UYHNxcCWxhUs7u8HIrMAptCvwXWkSae5ihnQAN6mPe1JSosj7ZvZiSPTYf5dy6GuymphzKBLzhp1q8xZQLhRuGxfqUCxiCvS0XbNiJsTW2xHsKNN8XgDNeKkR1PuOtygAAAABJRU5ErkJggg=="></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="icon-information">
+    <image id="information" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABSklEQVQ4ja2VMUoDQRSGP2VVsEiVZgtLG7EQBG+xxdZeZL2BpMwNIh4hkMoDWFgIi1goWAQCgjCFhY1ZmeUfmUxmx0X2h9e8+ffLezNvJnQoA0pgBtSAUdTKlfL0UgG8AA2wFmShqJVr5ClSwB1gIrOtpgLyiC/XmpF3om+35GB3wLhHK2N5HXRDhQfb77s38jrob/uZ9sNEKjsEpsC7YqpcWKkRoz2oUr9QRSq40dq9olEuVKU1y2rHYB05gBHwDcy93Fy5UeDNxZjtAufAE7AKTPbklkFFb4D9Zi/wrsSwrLb/RaQNX8fAFfAFPHZ4LMP0nfZb4AJ4BS5TxkxtHf0BPACegVPtYUyWsbT78QCcdNwKp0/gIwHLxbCs5Ng4nSm6tDE2qcF2coMd09Zg0+PqXStCRa+e06CPg9Xgz5ff/iAPrK///QUAP3A1c2hjgnPqAAAAAElFTkSuQmCC"></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 18" id="icon-mail">
+    <image id="envelope_1_" width="22" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAAA/UlEQVQ4jbWUsY5BURCGP1bjBViFRlYrERt6rQfhCRSbaBS8igfgFXY32WyoeAMKCoWIBLmb2fxE5LqIMcmc3Mz5z3dm5kxuDMgBTeAVH5sCXSP9AIGzDy3jPRB3yvZgewP+OkPNvm15B9aOrdgAZQO/AFVg7gBdiGVMekASSAP9B6ADTVZSzP/gBCipP3VgdQfQtA3ABqEIjBU/CrZAS2W8AV83QE2T15kPMYJzcJjYLtqFaHbaSyiJzxDNxfLqKq9yUl6g74r2otoWWao9ZkqZ1eQJxa499NU+LoE2UJC3FYs8FzvQvc37H3G0p4JHT+COrMdZDXfGCToDOn8cIr3Y0EJXagAAAABJRU5ErkJggg=="></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="icon-megaphone">
+    <image id="megaphone" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABlUlEQVQ4jaXUT2jPYRwH8Nds+R8aZu0gNVelRFMLByfj4LR22MXJxcnNSU7IgXaT2y7WDqRFnEi5EaL8aa1tShEhMW2aPvp89e1X3/nyfdfT9+l5Ps/7+34+78/n0QDrcRZvcKSgaf8Pvs04gTGswSt04nZsLqtJsgXDuJqKjuI4+vEUbUVgR+nQbgyW1lZge45teIFb2ItHVX8uDofkO7iGL7kWCk7iJZ6ksipsSq6F2B/FIj63BC/WTMfpjH2Onrj7PA5hHBtaCNuWICoTRo5XY2VHSn1fU00VfuB85Lauy3WwNoiD8Hs61wTdGElTncGHkrsF/tWUG1hXJD3yOIW3+JZr+3El3YvifYC5CsKN2T1/OiXqZyCL+yauYxpbcTjb7CMmMITlLaQ/i0nZlFDxLL8Xs82iTw+iKxU/xDnM4hRW1cnH5Zzvye5orcX27OXHuX8PF6oId+BdHgqiGfRVxMbtjuHuEjG/MYl9OR/JN68RouIvJcEBvG5KGPLjqjuxC1/R24Qwcncfn3LEOxjP/d+BX/dMVHauUCtaAAAAAElFTkSuQmCC"></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14 14" id="icon-pencil">
+    <image id="pencil_1_" width="14" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAy0lEQVQokZXRsUpCURgH8J8Q+gIODYFLe0ODFEVyp/bGXqCpsWdwl8AewL0HEOfGIAdHFSQoUCJMCEE58DlF917/cDjcD36c/7lHyVxghBVecFyGZVjiNr7vAheiLwzwjoeYrw4KUA/X+MURuphhkofSCc1YU5zGycu4cymU9rOone2DmjH/F832RSf4wRuu0C5CldifsMAhqnjEGs/xfumn/EkNH6jjHH0M8+rtcoNvXMagE7VzUUqqs8EnxnhFqwilzKPePRplAGwBLYQ22VgMfosAAAAASUVORK5CYII="></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="icon-phones">
+    <image id="music-and-multimedia" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABg0lEQVQ4jaWUv0uCURSGH6OCBCEjU0LaGxqk5v6Cb6+xyKX2CJrKuZqDppCiUQgCKWh0q0EHKWloURIcXJOMC++V6+0TPu3AAT33fZ977q+PEZEA8sA90AJ+lC3V8tJECiNuA31lA3hSNpx6W9qRMQPcSNwFToBsiDirsa60t/L+iaIEFWBZg+tAAbhTFlRDmoo8RR+248DiwCJQcpbnZ0mauAPdtbA54EtLWAFSwLtEz0AApJWBan1pUvJ0xTAstiQ41QS2szMgFrI1MY3ZTpHX/N9GsxzrGuSczsJgLtR2mpP3SKyhsDMFEe5X4K1sKBI6waZE6QjAtLRNeQcXfQGoeqcYJeY9T1UsLlW4AsoTAMvy9sWiA3wC084JjwMsyWsYnSkgCXwAvYigsOiJkTTAN2ADyPwDmBHDfDzYV+t1oDbBkmvymt8H6JKeRzjlTT0zH2jzwn8Ma8AhsBcCM1tj9unBqS0J9Crv2PEiwKNO1m6PebYTxaoDNfkNXAOzAxrwCwVNhZt706CgAAAAAElFTkSuQmCC"></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="icon-pie-chart">
+    <image id="pie-chart" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABjElEQVQ4jZ3UPUiVcRQG8F9xKWiOiKBBKDCjCIKCWqys9jRskAiagiaXtragyfYaQjBRkCjTghqCwMpokz7QqCm1LWgIIkJOnBcu13vf9977jOd/zvM/n48OcB0/8Rn3cQ5bGsO3dkC4E58whh14gjfoa4dwH25gFu8wkvYfuIth9GAVizjdinAXJrGMQXzA9vygEUF2AXfwuPCp1TkdwjN8xzG8T/uBilbcxEGM42RBuAfP8RJX8KeCpBExsK8YKAjvYQWX8bdDssBaln2xluWdx+EuyQq8wGgQXsJTfGwj6DgetXiLge4OwlO5ClWYa8NnspYD+Vbh2F/x/gUTcm1iF/+VOD/MfTvS4r0nt2KiMCzhakUGZbiVZ/gfkd3rPPRucQYL9bFn8Rt7uyA8mu3aX28MCXqLmWZyVIJtGTfVzKUXv3C7TdIY5oO8+9i/pggJCtLItKz8EItXWE9BKUVkGmVET6dz+jGwOM1rqY9xnvO5v5vQrLywDWAIJ+KcsvGhf6FG8VGI6mZgA2Q4S3M/STA0AAAAAElFTkSuQmCC"></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 19" id="icon-profile">
+    <image id="profile" width="20" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAABWUlEQVQ4jaXUsUpcQRTG8Z8xGCEskQWrKBZ5gI2wfTClpLKxEERYEDt9gkDyBmtnG7BLZZUmEEFsRIOgYLGFCKLbBAkhxmxIwiznBpG7d+/GD4aBmfP959w5544CDWMZe/iBa+xiEUNFxjw9wgf8wQ5e403A09r7OLC01vEbSzmG1YC+LQsbx6+A9tI7fMfjMsC5yOB5QcxMxLy8u/EgJ/hJzJcFwGyvUgZ4GnOtAJjtnRXE/NMILqK6D3P2R3GI1iDtMx93tIWJW+vP8DE6YLYsLNNKNHMyH+MkDvmGhV6mfilPhrkWsH1sFhUsDziGF3ga95mnnzjHNq56wavYQCeyKTM64anehU1F1W7QRD2vx26pEjHN8LSC0VVqjc+Rer3PneYpeb7gIGuzRnzaq/+AZUrexGikonyK3236HsCklOHXlGJ6BI6wdk9gen26D0p7gKoWD9p/Ad8FYcHgMLNTAAAAAElFTkSuQmCC"></image>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="icon-wallet">
+    <image id="wallet" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABFElEQVQ4jeXUvyvFURjH8Reu8uNaGJAFg7Ip/4B/AIXyP5jdCUUWWSw2q7LaTcogExm4Jd0M/gIx+dGjk066yffrbj516vQ83/M+z3nO53sU1DiOcIfFootzDWAP15jHEG7RWxTUhVXUsYJKllvDZrNFs7jBZTau8IZnbKOvybpuPOA+VbscwbYEm8EEOtCfdq9iC48/nGAhHT/6uo+RADYwjd0ELKu5VMwnsBWKVmlvEexLLQdWfvFNM1XTxU1muTEclwUe4gIbeMJ7ip8peSnx6w3iBetZvFG2h2G3Thzg9HsiKhwtCIyHYQfneM3iS/7gwzDxVDbqaf7fjB3A8NHwHznxAPfEJIxdw0lyf1mFH2vwAXdDMc62ekXNAAAAAElFTkSuQmCC"></image>
+  </symbol>
+</svg>
+	<div class="container">
+		<header>
+			<div>
+				<img src="./images/logo.png" alt="Логотип Work5">
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="#">
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-home"></use>
+							</svg>
+							<span>Главная</span>
+						</a>
+					</li>
+					<li>
+						<a>
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-cart"></use>
+							</svg>
+							<span>Мои магазины</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-megaphone"></use>
+							</svg>
+							<span>Промоматериалы</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-pie-chart"></use>
+							</svg>
+							<span>Статистика</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-wallet"></use>
+							</svg>
+							<span>Баланс</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-information"></use>
+							</svg>
+							<span>FAQ</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-phones"></use>
+							</svg>
+							<span>Техподдержка</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg viewBox="0 0 100 100" class="icon">
+								<use xlink:href="#icon-logout"></use>
+							</svg>
+							<span>Выход</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+	<main>
+		<div class="container">
+			
+		</div>
+	</main>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
