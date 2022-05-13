@@ -27,6 +27,11 @@ a {
 	text-decoration: none;
 }
 
+a:hover,
+a:active {
+	color: var(--dark-text-color);
+}
+
 
 .header {
 	box-shadow: 0px 0px 38px 0px rgba(136, 167, 245, 0.08);;
@@ -44,6 +49,10 @@ a {
 .nav-link:active,
 .nav-link.active {
 	color: var(--dark-text-color);
+}
+
+.navbar-toggler-icon {
+	background-image: url('../images/icon-toggler.svg');
 }
 
 .icon {
@@ -115,8 +124,17 @@ a {
 .btn {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	font-size: 12px;
+	font-weight: 400;
 	color: #ffffff;
+	box-shadow: 0px 9px 18px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn .icon {
+	width: 14px;
+	height: 14px;
+	fill: #ffffff;
 }
 
 .btn:hover {
@@ -128,9 +146,8 @@ a {
 	background-color: var(--green-color);
 }
 
-.btn span {
-	font-size: 20px;
-	font-weight: 700;
+.btn--grey {
+	background-color: var(--grey-color);
 }
 
 .page__title {
@@ -138,4 +155,94 @@ a {
 	color: var(--dark-text-color);
 }
 
+.page__table {
+	box-shadow: 0px 11px 21px 0px rgba(40, 40, 40, 0.07);
+}
+
+.page__table-row div {
+	word-break: break-all;
+}
+
+.page__table-row:not(:last-child) {
+	border-bottom: 1px solid var(--grey-color);
+}
+
+.modal-dialog {
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	max-width: 616px;
+	width: 100%;
+	box-shadow: 0px 30px 38px 0px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal__close-btn {
+	border: none;
+	background: transparent;
+}
+
+.modal__close-btn .icon {
+	width: 17px;
+	height: 17px;
+}
+
+.modal select {
+	font-size: 12px;
+	font-weight: 400;
+	color: var(--main-text-color);
+	border-color: var(--grey-color);
+	border-radius: 3px;
+}
+
+.modal input {
+	padding-right: 160px;
+	border: none;
+	border-radius: 3px;
+	background-color: #e6e6e9;
+}
+
+.modal input::placeholder {
+	color: var(--main-text-color);
+	font-weight: 700;
+}
+
+.modal__domain-suffix {
+	position: absolute;
+	top: 29px;
+	right: 12px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 700;
+	border-radius: 3px;
+	background-color: var(--purple-color);
+}
+
+.icon-warning {
+	width: 150px;
+	margin-right: 18px;
+	height: 72px;
+	fill: var(--purple-color);
+}
+
+.modal p {
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--main-text-color);
+}
+
+.modal a {
+	color: var(--purple-color);
+}
+
+.modal-footer {
+	border: none;
+}
+
+.modal-footer .btn {
+	font-size: 14px;
+}
 
